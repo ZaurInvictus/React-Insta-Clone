@@ -9,6 +9,7 @@ const dummyData = [
       "https://tk-assets.lambdaschool.com/69cf901b-f96d-466e-a745-ff2a01effac9_philz-image.jpg",
     likes: 400,
     timestamp: "July 17th 2017, 12:42:40 pm",
+
     comments: [
       {
         id: 1,
@@ -27,7 +28,9 @@ const dummyData = [
         text: "Can't wait to try it!"
       }
     ]
+    
   },
+
   {
     id: "b",
     username: "fortnite",
@@ -65,6 +68,7 @@ const dummyData = [
       }
     ]
   },
+
   {
     id: "c",
     username: "playhearthstone",
