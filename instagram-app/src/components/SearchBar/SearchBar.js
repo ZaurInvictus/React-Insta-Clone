@@ -5,18 +5,17 @@ const SearchBar = () => {
   return (
     <div className='search-bar'>
       <div className='logo'>
-        <i class="fab fa-instagram"></i>
-        <hr/>
+        <div className='logo-box'><i className="fab fa-instagram"></i></div>
         <p>Instagram</p>
       </div>
       <div className='search-box'>
-        <i class="fas fa-search"></i>
-        <input placeholder='Search'/>
+        <i className="fas fa-search"></i>
+        <input className='search-input' placeholder='Search'/>
       </div>
       <div className='search-bar-icons'>
-        <i class="far fa-compass"></i>
-        <i class="far fa-heart"></i>
-        <i class="far fa-user"></i>
+        <i className="far fa-compass"></i>
+        <i className="far fa-heart"></i>
+        <i className="far fa-user"></i>
       </div>
     </div>
   )

@@ -7,7 +7,7 @@ import PostContainer from './components/PostContainer/PostContainer';
 class App extends React.Component {
   constructor(){
     super();
-    this.state = [];
+    this.state = {};
   }
 
   render() {
@@ -15,9 +15,8 @@ class App extends React.Component {
       <div className="App">
         <SearchBar />
         {dummyData.map(item => {
-          return  <PostContainer post={item} key={dummyData.id}/>
+          return  <PostContainer post={item} key={item.id}/>
         })}
-       
       </div>
     );
   }

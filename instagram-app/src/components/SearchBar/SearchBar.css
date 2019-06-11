@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(207, 203, 203);
   margin: 5px auto;
   width: 90%;
 }
@@ -10,16 +9,39 @@
 .logo {
   display: flex;
   align-items: center;
+  margin: 10px;
+}
+
+.logo i {
+  font-size: 1.5rem;
+}
+
+.logo p {
+  margin-left: 12px;
+}
+
+.logo-box {
+  border-right: 1px solid gray;
+  width: 40px;
 }
 
 .search-box {
-  
+  border: 1px solid rgba(196, 196, 196, 0.8);
+}
+.search-box i{
+  margin: 5px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
 }
 
 .search-bar-icons {
-  margin: 5px;
+  margin: 10px;
 }
 
 .search-bar-icons > i {
-  margin: 5px;
+  margin: 10px;
+  color: gray;
 }
