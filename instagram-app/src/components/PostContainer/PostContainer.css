@@ -57,6 +57,17 @@ hr {
   width: 98%;
 }
 
+.input-box {
+  display: flex;
+  width: 100%;
+}
+
+.dots {
+  padding-bottom: 6px;
+  padding-right: 3px;
+  font-weight: bold;
+}
+
 .comment-input {
   width: 100%;
   border: none;

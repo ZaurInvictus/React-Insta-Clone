@@ -25,11 +25,15 @@ const PostContainer = (props) => {
        
          <p className='time-stamp'>{props.post.timestamp}</p>
          <hr/>
-         <input className='comment-input' placeholder='Add a comment...'/>
+         <div className='input-box'>
+           <input className='comment-input' placeholder='Add a comment...'/>
+           <div className='dots'>...</div>
+         </div>
        </div>
     </div>
   )
 }
+
 
 export default PostContainer;
 

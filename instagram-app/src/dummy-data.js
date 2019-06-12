@@ -15,7 +15,7 @@ const dummyData = [
         id: 1,
         username: "philzcoffee",
         text:
-          "We've got more than just delicious coffees to offer at our shops!"
+          "We've got more than just coffees to offer at our shops!"
       },
       {
         id: 2,
