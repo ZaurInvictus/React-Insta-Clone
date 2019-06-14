@@ -17,10 +17,8 @@ class App extends React.Component {
     return (
       <div className="App">
         <SearchBar />
-        {this.state.posts.map(item => {
-          return <PostContainer post={item} key={item.id}/>
-        })}
-      </div>
+        <PostContainer posts={this.state.posts} />
+      </div> 
     );
   }
 }

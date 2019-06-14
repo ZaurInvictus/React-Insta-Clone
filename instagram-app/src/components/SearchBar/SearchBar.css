@@ -2,9 +2,27 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 5px auto;
-  width: 90%;
+  margin: 0 auto;
+  width: 80%;
+  height: 70px;
+  background:#FAFAFA;
+  border-bottom: 1px solid #3333;
 }
+
+.logo-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.text-logo-box {
+  border: 1px solid gray;
+  width: 50%;
+}
+
+.text-logo-image {
+  border: 1px solid gray;
+  width: 40%;
+} 
 
 .logo {
   display: flex;
@@ -35,6 +53,7 @@
 .search-input {
   border: none;
   outline: none;
+  background-color: #FAFAFA;
 }
 
 .search-bar-icons {

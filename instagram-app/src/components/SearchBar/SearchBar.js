@@ -1,4 +1,5 @@
 import React from 'react';
+// import textLogo from '../../assets/textlogo.png';
 import './SearchBar.css'
 
 const SearchBar = () => {
@@ -6,7 +7,11 @@ const SearchBar = () => {
     <div className='search-bar'>
       <div className='logo'>
         <div className='logo-box'><i className="fab fa-instagram"></i></div>
-        <p>Instagram</p>
+        {/* <div className="text-logo-box">
+         <img alt="instagram logo" src={textLogo} className="text-logo-image" />
+        </div> */}
+        <p className="logo-text">Instagram</p>
+    
       </div>
       <div className='search-box'>
         <i className="fas fa-search"></i>
