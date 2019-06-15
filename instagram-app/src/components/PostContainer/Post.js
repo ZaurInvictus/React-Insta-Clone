@@ -28,6 +28,8 @@ const Post = props => {
           <i className="far fa-comment"></i>
         </div>
           <span className='likes'>{props.post.likes} likes</span>
+          <span className='time-stamp'>{props.post.timestamp}</span>
+          
       </div>
       <CommentSection comments={props.post.comments} />
     </div>

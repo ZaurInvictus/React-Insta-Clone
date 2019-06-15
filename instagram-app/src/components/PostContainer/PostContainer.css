@@ -36,6 +36,11 @@
   margin-left: 5px;
 }
 
+.time-stamp {
+  font-size: 0.9rem;
+  color: rgb(160, 160, 160);
+  margin: 5px;
+}
 .post-header {
   display: flex;
   align-items: center;
@@ -64,11 +69,6 @@
   margin-bottom: 5px;
 }
 
-.time-stamp {
-  font-size: 0.8rem;
-  color: rgb(204, 202, 202);
-  margin: 5px;
-}
 
 hr {
   width: 98%;

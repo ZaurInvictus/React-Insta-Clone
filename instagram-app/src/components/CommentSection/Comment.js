@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './CommentSection.css';
 
+
 const Comment = props => {
   return (
     <div className="comment-content"> 
@@ -12,7 +13,6 @@ const Comment = props => {
         {props.comment.text}
       </span>
     </div>
-  
   );
 };
 
