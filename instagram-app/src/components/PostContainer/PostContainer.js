@@ -5,7 +5,7 @@ import Post from './Post';
 const PostsContainer = props => {
   return (
     <div className="post-container">
-      {props.posts.map(current => <Post key={current.imageUrl} post={current} />)}
+      {props.posts.map(current => <Post post={current} key={current.imageUrl} />)}
     </div>
   );
 };

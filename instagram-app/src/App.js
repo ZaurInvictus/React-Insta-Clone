@@ -17,11 +17,12 @@ class App extends React.Component {
     this.setState({posts: dummyData});
   }
 
+ 
   render() {
     return (
       <div className="App">
         <SearchBar />
-        <PostContainer posts={this.state.posts} />
+        <PostContainer posts={this.state.posts} action={this.click}/>
       </div> 
     );
   }
