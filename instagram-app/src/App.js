@@ -11,7 +11,6 @@ class App extends React.Component {
     this.state = {
       posts: [],
       filteredPosts: [],
-      searchTerm: []
     }
   }
 
@@ -25,11 +24,7 @@ class App extends React.Component {
   };
 
   searchPostsHandler = e => {
-    const posts = this.state.posts.filter(curr => {
-      if (curr.username.includes(e.target.value)) {
-        return curr;
-      }
-    });
+    const posts = this.state.posts.filter(curr => curr.username.includes(e.target.value));
     this.setState({ filteredPosts: posts });
   };
 
